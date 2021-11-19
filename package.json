@@ -1,0 +1,13 @@
+{
+  "name": "socket-chat-example",
+  "version": "0.0.1",
+  "description": "Web chat v2",
+  "scripts": {
+    "start:dev": "nodemon server.js -e ejs,js,css,html,jpg,png,scss"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.0"
+  }
+}
